@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+    padding: 10px;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
